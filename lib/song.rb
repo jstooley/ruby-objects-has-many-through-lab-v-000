@@ -4,6 +4,7 @@ class Song
   def initialize(name,genre)
     @name = name
     @genre = genre
+    @artist = []
     genre.add_song(self) unless genre.songs.include?(self)
   end
 
