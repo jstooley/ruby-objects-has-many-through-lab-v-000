@@ -10,6 +10,10 @@ class Patient
     appointment.patient = self
   end
 
+  def appointments
+    @appointments.dup.freeze
+  end
+
   def doctors
 
     @appointments.collect{|d| d.doctor}
