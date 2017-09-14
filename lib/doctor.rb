@@ -4,4 +4,8 @@ class Doctor
     @name = name
     appointments = []
   end
+
+  def name 
+    @name.dup.freeze
+  end
 end
