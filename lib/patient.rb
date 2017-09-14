@@ -9,4 +9,10 @@ class Patient
     @appointments << appointment
     appointment.patient = self
   end
+
+  def doctors
+
+    @appointments.collect{|d| d.doctor}
+
+  end
 end
