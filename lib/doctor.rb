@@ -17,4 +17,7 @@ class Doctor
   def appointments
     @appointments.dup.freeze
   end
+
+  def patients
+  end
 end
