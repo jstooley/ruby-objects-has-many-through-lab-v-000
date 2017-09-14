@@ -7,8 +7,6 @@ class Song
     genre.add_song(self) unless genre.songs.include?(self)
   end
 
-  def artist
-    @artist
-  end
+  
 
 end
