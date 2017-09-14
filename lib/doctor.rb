@@ -13,4 +13,8 @@ class Doctor
     @appointments = appointment
     appointment.doctor = self
   end
+
+  def appointments
+    @appointments.dup.freeze
+  end
 end
