@@ -9,7 +9,7 @@ class Doctor
     @name.dup.freeze
   end
 
-  def add_appointment
-    
+  def add_appointment(appointment)
+    @appointments = appointment
   end
 end
