@@ -8,6 +8,7 @@ class Song
   end
 
   def artist
+    @artist
   end
 
 end
